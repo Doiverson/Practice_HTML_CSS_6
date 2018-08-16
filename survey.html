@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href='http://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<div class="wrapper">
+
+    <form action="index.html" method="post">
+
+        <div class="title">
+            <h1 class="main-title">Survey</h1>
+        </div>
+
+        <fieldset class="1">
+            <legend>Task1</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="user_name"><br>
+            <label for="Phone">Phone:</label>
+            <input type="number" id="phone" name="user_phone"><br>
+            <label for="mail">Email:</label>
+            <input type="email" id="mail" name="user_email"><br>
+
+            <div class="comment">
+                <div class="comment-wrap">
+                    <label for="comment">Comment:</label>
+                    <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+                </div>
+
+                <div class="button-wrap">
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </div>
+            </div>
+
+        </fieldset>
+
+        <fieldset class="2">
+            <legend>Task2</legend>
+
+            <label >Gender</label>
+            <input type="checkbox" id="male" value="gender_male" name="gender"><label class="light" for="male">Male</label><br>
+            <input type="checkbox" id="female" value="gender_female" name="gender"><label class="light" for="female">Female</label><br>
+            <input type="checkbox" id="other" value="gender_other" name="gender"><label class="light" for="other">Other</label>
+
+            <label>Hobbies</label>
+            <input type="checkbox" id="ski" value="hobby_ski" name="hobbies"><label for="ski">Ski</label>
+            <input type="checkbox" id="study" value="hobby_study" name="hobbies"><label for="study">Study</label>
+            <input type="checkbox" id="swim" value="hobby_swim" name="hobbies"><label for="swim">Swim</label>
+            <input type="checkbox" id="walk" value="hobby_walk" name="hobbies"><label for="walk">Walk</label>
+            <input type="checkbox" id="golf" value="hobby_golf" name="hobbies"><label for="golf">Golf</label>
+            <input type="checkbox" id="nothing" value="hobby_nothing" name="hobbies"><label for="nothing">Nothing</label>
+
+            <label>Course</label>
+            <input type="radio" id="math" value="math" name="course"><label for="math" class="light">Math</label><br>
+            <input type="radio" id="english" value="english" name="course"><label for="english" class="light">English</label><br>
+            <input type="radio" id="computer" value="computer" name="course"><label for="computer" class="light">computer</label>
+
+            <button type="submit">Submit</button>
+
+        </fieldset>
+
+    </form>
+</div>
+</body>
+</html>
+
+
+
+

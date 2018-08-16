@@ -1,0 +1,93 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    color: black;
+}
+
+.wrapper {
+    margin: 20px 300px;
+    border: 10px solid blue;
+}
+
+.title {
+    text-align: center;
+}
+
+.main-title {
+    display: inline-block;
+    color: white;
+    background: black;
+    padding: 10px;
+    letter-spacing: 5px;
+}
+
+form {
+    width: 530px;
+    margin: 10px auto;
+}
+
+
+
+label {
+    display: inline-block;
+    width: 65px;
+    font-weight: bold;
+    vertical-align: top;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea {
+    width: 75%;
+}
+
+
+label,
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea {
+    font-size: 20px;
+    margin-left: 28px;
+    margin-bottom: 10px;
+}
+
+
+textarea {
+    width: 200px;
+    height: 80px;
+    margin-bottom: 0;
+}
+
+.comment {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.comment-wrap {
+    display: inline-block;
+}
+
+button {
+    width: 100px;
+}
+
+.button-wrap {
+    display: inline-block;
+    position: absolute;
+    width: 150px;
+}
+
+.button-wrap button {
+    margin-left: 10px;
+}
+
+.button-wrap > button {
+    margin-bottom: 15px;
+}
