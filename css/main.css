@@ -92,7 +92,7 @@ button {
     width: 150px;
 }
 
-.button-wrap button {
+button {
     margin-left: 10px;
     color: white;
     border-radius: 8%;
@@ -110,6 +110,10 @@ button {
 /*-----------------------------------------*/
 /*task2*/
 
+.second {
+    position: relative;
+    height: 310px;
+}
 
 .container {
     display: flex;
@@ -165,4 +169,9 @@ label.light {
 .wrap-gender label.light {
     text-align: center;
     padding-top: 10px;
+}
+
+.second .button-submit {
+    position: absolute;
+    right: 10%;
 }
