@@ -72,7 +72,11 @@
         .section2 {
             height: 550px;
             background-color: #990000;
+        }
 
+        .section2 h2 {
+            color: #fff;
+            margin-bottom: 10px;
         }
 
         .section2 ul {
@@ -81,13 +85,30 @@
 
 
         .section2 li {
-            color: black;
+            color: #fff;
             display: inline-block;
-            width: 19%;
-            margin-right: 45px;
+            width: 20%;
+            margin-right: 0;
+            margin-left: 0;
+            padding-right: 15px;
+            padding-left: 10px;
+            position: relative;
         }
 
+        .section2 li:not(:last-child) {
+            border-right: 2px solid black;
 
+        }
+
+        footer {
+            padding-top: 15px;
+            padding-bottom: 15px;
+            text-align: center;
+            align-items: center;
+            color: #fff;
+            background-color: black;
+            height: 50px;
+        }
 
 
     </style>
@@ -167,9 +188,9 @@
 </div>
 
 <!--Footer-->
-<fotter>
+<footer>
     <p>Copyright©︎ 2018 HTML & CSS</p>
-</fotter>
+</footer>
 
 </body>
 </html>
