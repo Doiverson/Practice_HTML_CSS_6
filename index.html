@@ -2,9 +2,174 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="shortcut icon" type="x-icon"  href="img/favicon.ico">
+    <title>title</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0 auto;
+            padding: 0;
+        }
+        header {
+            position: relative;
+            background-color: black;
+            width: auto;
+            height: 100px;
+        }
+
+        header, nav, section {
+            padding-right: 100px;
+            padding-left: 100px;
+        }
+
+        .wrap-logo {
+            height: 100%;
+            position: relative;
+        }
+
+        .logo {
+            width: 75px;
+            height: auto;
+            display: inline-block;
+            position: absolute;
+            top: 5px;
+        }
+
+        nav {
+            background-color: #990000;
+            height: 40px;
+        }
+
+        .navbar {
+            display: flex;
+            height: 100%;
+            align-items: center;
+        }
+
+        li {
+            margin:0 20px 0 0;
+            color: #fff;
+        }
+
+        section {
+            padding-top: 60px;
+            height: 400px;
+        }
+
+        .common {
+            display: inline-block;
+            width: 46%;
+            height: 100%;
+            vertical-align: top;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        .section2 {
+            height: 550px;
+            background-color: #990000;
+
+        }
+
+        .section2 ul {
+            text-align: center;
+        }
+
+
+        .section2 li {
+            color: black;
+            display: inline-block;
+            width: 19%;
+            margin-right: 45px;
+        }
+
+
+
+
+    </style>
 </head>
 <body>
+
+<!--Header-->
+<header>
+    <div class="wrap-logo"v>
+        <img class="logo" src="img/logo.png" alt="Logo">
+    </div>
+</header>
+
+<div class="cover">
+
+    <!--Navigation-->
+    <nav>
+        <ul class="navbar">
+            <li>home</li>
+            <li>about</li>
+            <li>service</li>
+            <li>contact</li>
+        </ul>
+    </nav>
+
+    <!--Section1-->
+    <section >
+        <div class="common left-side">
+            <h2>WEBSITE COPYWRITING</h2>
+            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn’t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. </p>
+            <a href="#"><p>READ MORE</p></a>
+        </div>
+
+        <div class="common right-side">
+            <img src="img/top.jpg" alt="Paris">
+        </div>
+    </section>
+
+    <!--Section2-->
+    <section class="section2">
+        <h2>Web Content Services</h2>
+
+        <div class="sub-section">
+            <ul>
+                <li>
+                    <div class="box first">
+                        <img src="img/one.jpg" alt="Science world" class="first-img">
+                        <p>Reports and Analyses: Track and improve Your website Performance</p>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="box second">
+                        <img src="img/two.jpg" alt="London">
+                        <p>Blog Services to Grow Your Website and Build a Better Online Presence</p>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="box third">
+                        <img src="img/three.jpg" alt="Mountain">
+                        <p>Increase Your Website Traffic with Search Engine Optimization(SEO) Services</p>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="box forth">
+                        <img src="img/four.jpg" alt="Alcohol">
+                        <p>Tell the World About Your website - Marketing Copywriting Services</p>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+</div>
+
+<!--Footer-->
+<fotter>
+    <p>Copyright©︎ 2018 HTML & CSS</p>
+</fotter>
 
 </body>
 </html>

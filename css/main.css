@@ -6,12 +6,12 @@
 body {
     font-family: 'Nunito', sans-serif;
     color: black;
+    text-transform: uppercase;
 }
 
 .wrapper {
     margin: 20px 300px;
-    border: 10px solid blue;
-}
+    border: 10px solid blue;}
 
 .title {
     text-align: center;
@@ -174,4 +174,9 @@ label.light {
 .second .button-submit {
     position: absolute;
     right: 10%;
+}
+
+/*footer*/
+.copyright {
+    text-align: center;
 }
